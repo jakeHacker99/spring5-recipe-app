@@ -21,4 +21,12 @@ public class UnitOfMeasure {
     public void setDescription(String uom) {
         this.description = uom;
     }
+
+    public Long getId() {
+        return id;
+    }
+
+    public void setId(Long id) {
+        this.id = id;
+    }
 }
