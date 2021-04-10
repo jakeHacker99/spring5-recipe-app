@@ -168,12 +168,12 @@ public class RecipeBootstrap implements ApplicationListener<ContextRefreshedEven
                 "Grill the chicken, then let it rest while you warm the tortillas. Now you are ready to assemble the tacos and dig in. The whole meal comes together in about 30 minutes!\n" +
                 "\n" +
                 "\n" +
-                "Read more: http://www.simplyrecipes.com/recipes/spicy_grilled_chicken_tacos/#ixzz4jvu7Q0MJ");
+                "Read more: http://www.simplyrecipes.com/rec\n" +
+                "\n" +
+                "\n" +
+                " ipes/spicy_grilled_chicken_tacos/#ixzz4jvu7Q0MJ");
         tacoNotes.setRecipe(tacosRecipe);
-        tacosRecipe.setNotes(tacoNotes);
-
-
-        tacosRecipe.getIngredients().add(new Ingredient("Ancho Chili Powder", new BigDecimal(2), tableSpoonUom));
+        tacosRecipe.setNotes(tacoNotes);       tacosRecipe.getIngredients().add(new Ingredient("Ancho Chili Powder", new BigDecimal(2), tableSpoonUom));
         tacosRecipe.getIngredients().add(new Ingredient("Dried Oregano", new BigDecimal(1), teaspoonUom));
         tacosRecipe.getIngredients().add(new Ingredient("Dried Cumin", new BigDecimal(1), teaspoonUom));
         tacosRecipe.getIngredients().add(new Ingredient("Sugar", new BigDecimal(1), teaspoonUom));

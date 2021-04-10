@@ -7,7 +7,6 @@ import javax.persistence.*;
 import java.util.Set;
 
 /**
- * Created by jt on 6/13/17.
  */
 @Data
 @EqualsAndHashCode(exclude = {"recipes"})
